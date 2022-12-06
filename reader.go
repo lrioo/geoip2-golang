@@ -295,7 +295,8 @@ func getDBType(reader *maxminddb.Reader) (databaseType, error) {
 		"GeoIP2-City-South-America",
 		"GeoIP2-Precision-City",
 		"GeoLite2-Country",
-		"GeoIP2-Country":
+		"GeoIP2-Country",
+		"IPGeo":
 		return isCity | isCountry, nil
 	case "GeoIP2-Connection-Type":
 		return isConnectionType, nil
